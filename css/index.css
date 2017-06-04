@@ -1,0 +1,53 @@
+
+form {
+	overflow-y: scroll;
+	padding-bottom: 10em;
+}
+
+.con {
+  height:30em;
+}
+.form-group {
+	margin-bottom: 3em;
+}
+.select {
+	margin-left: 2em;
+	width: 60%;
+	height:2em;
+}
+.tip {
+	display: none;
+}
+input {
+	border:1px solid darkgray;
+	border-radius: 5px;
+	margin-left: 2em;
+	height:2em;	
+	padding: 0px;
+	margin-bottom: 1em;
+}
+.progress {
+	display: none;
+}
+.box {
+	position: absolute;
+	width:80%;
+	display: none;
+	background: rgba(0, 0 , 0, 0.7);
+	top:20rem;
+	left:4rem;
+	color:white;
+	font-size: 1.5em;
+	padding:2em;
+	border-radius: 1em;
+}
+a {
+	height:2.4em;
+	line-height: 2.4em;
+	font-size: 1.2em;
+	text-align: center;
+
+}
+a:link {
+	text-decoration: none;
+}
