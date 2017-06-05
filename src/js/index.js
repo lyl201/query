@@ -87,8 +87,8 @@ $(function() {
 	var boxFadeIN = function(str) {
 		$('.box').html(str).fadeIn('300', function() {
 			setTimeout(function(){
-				$('.box').fadeOut('40000');
-			},1000)
+				$('.box').fadeOut();
+			},1500)
 		});	
 	}
 
