@@ -1,10 +1,7 @@
-
 require('../css/index.css');
 $(function() {
 	var y,m;
-
   $( "#datepicker" ).datepicker();
-
 	$('#four').on('change', function() {
 		if($(this).val() == '3') {
 			boxFadeIN('吸烟有害健康，请尽早戒烟')
@@ -88,11 +85,11 @@ $(function() {
 	})
 	
 	var boxFadeIN = function(str) {
-			$('.box').html(str).fadeIn('300', function() {
-				setTimeout(function(){
-					$('.box').fadeOut('40000');
-				},1000)
-			});	
+		$('.box').html(str).fadeIn('300', function() {
+			setTimeout(function(){
+				$('.box').fadeOut('40000');
+			},1000)
+		});	
 	}
 
 })
